@@ -478,7 +478,3 @@ for i in range(1000):
 	score = update(current_state, action, gamma) 
 	scores.append(score) 
 
-pl.plot(scores) 
-pl.xlabel('Number of iterations') 
-pl.ylabel('Reward gained') 
-pl.show() 
